@@ -1,0 +1,19 @@
+{
+    "name": "trangtin",
+    "version": "1.0.0",
+    "description": "Trang tin điện tử Node.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon index.js",
+        "start": "nodemon ./index.js"
+    },
+    "author": "Nguyễn Tùng",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "ejs": "^3.1.7",
+        "express": "^4.17.3",
+        "express-session": "^1.17.2",
+        "mongoose": "^6.3.3"
+    }
+}
